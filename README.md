@@ -1,7 +1,7 @@
 # 🪖 Military Asset Management System
 
-🎯 **[Live Demo]([https://your-demo-link.vercel.app](https://military-asset-management-system-nandan-main.vercel.app))**  
-🎥 **[Watch Working Video]([https://your-demo-video-link.com](https://www.loom.com/share/b0bda9f94b8a494c96b3ee92eb17d120))**  
+🎯 [Live Demo]([https://your-demo-link.vercel.app](https://military-asset-management-system-nandan-main.vercel.app)) 
+🎥 [Watch Working Video]([https://your-demo-video-link.com](https://www.loom.com/share/b0bda9f94b8a494c96b3ee92eb17d120)) 
 
 ---
 
