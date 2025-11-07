@@ -1,54 +1,30 @@
-# Military Asset Management System - Frontend
+# 🪖 Military Asset Management System
 
-React frontend application for the Military Asset Management System.
+🎯 **[Live Demo](https://your-demo-link.vercel.app)**  
+🎥 **[Watch Working Video](https://your-demo-video-link.com)**  
 
-## Setup Instructions
+---
 
-1. **Install Dependencies**
-   ```bash
-   npm install
-   ```
+## 📘 Project Description
 
-2. **Configure Environment Variables**
-   
-   Create a `.env` file in the root directory:
-   ```
-   VITE_API_URL=http://localhost:5001/api
-   ```
-   
-   Note: Make sure your backend is running on port 5001 (or update the URL accordingly).
+The **Military Asset Management System** is a full-stack application built to **track, manage, and audit military assets** across multiple bases.  
+It provides **transparency, accountability, and efficiency** in handling **asset purchases, transfers, assignments, and expenditures** — ensuring that every item is tracked throughout its lifecycle.
 
-3. **Start Development Server**
-   ```bash
-   npm run dev
-   ```
+---
 
-   The app will be available at `http://localhost:5173` (or the port shown in terminal).
+## ⚙️ Core Features
 
-## Features
+- 🧾 **Asset Purchases:** Record new acquisitions with pricing, vendor info, and base assignment.  
+- 🔄 **Asset Transfers:** Secure inter-base transfer workflow (`pending → approved → completed`).  
+- 🎖️ **Asset Assignments:** Assign assets to personnel with return tracking.  
+- 💥 **Asset Expenditures:** Record permanent asset usage with reason tracking.  
+- 📊 **Dashboard Analytics:** Real-time stats on Opening Balance, Closing Balance, Net Movement, etc.  
+- 🔐 **Unified Authentication:** Single `/api/user/auth` for login & registration.  
+- 🧩 **Role-Based Access:** Admin, Base Commander, and Logistics Officer levels.
 
-- **Authentication**: Login/Register with role-based access (Admin, Base Commander, Logistics Officer)
-- **Dashboard**: View key metrics (Opening Balance, Closing Balance, Net Movement, Assigned, Expended) with filters
-- **Purchases**: Create and view purchase records
-- **Transfers**: Create and manage asset transfers between bases
-- **Assignments & Expenditures**: Track asset assignments and expenditures
-- **Bases Management**: Admin-only base management (create, view, delete bases)
+---
 
-## Role-Based Access
-
-- **Admin**: Full access to all features
-- **Base Commander**: Access to their assigned base data
-- **Logistics Officer**: Limited access to purchases and transfers
-
-## Important Notes
-
-1. **Assets**: Currently, assets need to be referenced by ObjectId. For purchases, transfers, and assignments, you'll need to use existing asset IDs from the backend. Consider creating assets via the backend API first or modify the backend to auto-create assets.
-
-2. **Backend Connection**: Ensure the backend server is running and accessible at the configured `VITE_API_URL`.
-
-3. **CORS**: Make sure your backend allows CORS requests from the frontend origin.
-
-## Project Structure
+## 🧱 Project Structure
 
 ```
 src/
@@ -70,10 +46,44 @@ src/
 └── App.css             # Global styles
 ```
 
-## Build for Production
+## 💻 How to Run Locally (Frontend)
 
+### 🧾 Prerequisites
+Make sure you have the following installed:
+- **Node.js v18+**
+- **npm (Node Package Manager)**
+
+---
+
+### 1️⃣ Clone the Repository
 ```bash
-npm run build
+git clone https://github.com/<your-username>/Military-Asset-Management-System-Frontend.git
+cd Military-Asset-Management-System-Frontend
+```
+### 2️⃣ Setup 
+```bash
+npm install
+```
+### 3️⃣ Create a .env file inside the frontend folder
+```bash
+VITE_API_URL=http://localhost:5001/api
+```
+### 4️⃣ Start the frontend server
+```bash
+npm run dev
 ```
 
-The built files will be in the `dist/` directory.
+### 5️⃣ Open the Application
+Now open your browser and visit 👉 http://localhost:5173
+
+##🧠 Author
+
+Nandan Kumar Mishra
+🔗 GitHub
+📧 nandanmishra@example.com
+
+“Designed with precision. Built for accountability.”
+
+##🏅 License
+
+This project is licensed under the MIT License – feel free to modify and use it.
