@@ -78,7 +78,7 @@ npm run dev
 ### 5️⃣ Open the Application
 Now open your browser and visit 👉 http://localhost:5173
 
-##🧠 Author
+## 🧠 Author
 
 Nandan Kumar Mishra
 
@@ -86,6 +86,6 @@ Nandan Kumar Mishra
 
 “Designed with precision. Built for accountability.”
 
-##🏅 License
+## 🏅 License
 
 This project is licensed under the MIT License – feel free to modify and use it.
